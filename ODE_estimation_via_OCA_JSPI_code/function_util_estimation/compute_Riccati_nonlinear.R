@@ -51,7 +51,6 @@ compute_Riccati_nonlinear <- function(Times_integ,pseudo_Y,State_i_m1,param_stru
   History_G = list()
   mat_Rk  = mat_Rn
   vect_Hk = vect_Hn
-  
   val_Sn_prof = t(Yn_fin)%*%Yn_fin
   
   for (nk in 1:(nb_time_integ-1)){
