@@ -56,7 +56,6 @@ matrix_M_sp = rbind(cbind(matrix_M [1:5,1:5],matrix_M[1:5,9],matrix_M[1:5,11]),
 theta_ini_inter = c(t(matrix(matrix_M_sp[1:5,],35,1)), matrix_M_sp[7,])
 theta_ini_sp3 = theta_ini_inter[c(1,3:5, 7:13, 16:17, 19, 22:25, 28, 30:38, 40:42)]
 
-
 # noise level speicfication and data generation for the three subjects
 
 x0_int_mic1_sp = x0_int_mic1[ind_state_sel]
