@@ -90,9 +90,7 @@ est_param_iter_oca_linear <- function(Times_obs,Yn,param_ini,x0_known = c(),mat_
   }
   
   ensemble_Ricatti_comp =  compute_Riccati_linear(Times_integ,pseudo_Y,x0,param_struct,mat_U,mat_A,mat_C,mat_B,weight_integ)
-  
-    
- 
+     
   return(ensemble_Ricatti_comp)
   }
   
