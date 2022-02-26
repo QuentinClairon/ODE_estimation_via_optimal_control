@@ -93,8 +93,7 @@ est_param_iter_oca_nonlinear_profiled_ic <- function(Times_obs,Yn,State_ini,para
       stop_criteria = 1;
     }
 
-    }
-    
+    }    
     return(ensemble_Ricatti_comp)
   }
   
