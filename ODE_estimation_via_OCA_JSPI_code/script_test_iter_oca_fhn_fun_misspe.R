@@ -62,7 +62,6 @@ lambda_trial = lambda_trial_tot
 #       -res_est_err_pred_opt_prof_ic$set_Ricatti_State_opt_value$State_opt: The optimal trajectory corresponding to the estimation
 #list_res_estimation_prof_ic is a list made of each res_est_err_pred_opt_prof_ic element computed for each lambda value
 
-
 err_pred_opt_cur = 10^20
 list_res_estimation = list()
 theta_prof_ini = theta_to_est
