@@ -29,8 +29,7 @@ err_pred_estimation_oca_nonlin <- function(Times_integ,pseudo_Y,est_param,State_
   dim_control = ncol(mat_U)
   
   v_field <- function(Time, State, Pars){
-    dState = mat_A(Time,State,est_param)%*%State
-    
+    dState = mat_A(Time,State,est_param)%*%State 
     return(list(c(dState)))
   }
   
