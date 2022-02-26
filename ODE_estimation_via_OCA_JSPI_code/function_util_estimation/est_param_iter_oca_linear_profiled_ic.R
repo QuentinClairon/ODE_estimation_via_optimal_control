@@ -66,7 +66,6 @@ est_param_iter_oca_linear_profiled_ic <- function(Times_obs,Yn,param_ini,mat_U,m
   func_eco_E <- function(param){
     
     ensemble_Ricatti_comp =  compute_Riccati_linear_profiled_ic(Times_integ,pseudo_Y,param,mat_U,mat_A,mat_B,mat_C,weight_integ,x0_known)
-    
     return(ensemble_Ricatti_comp)
   }
   
