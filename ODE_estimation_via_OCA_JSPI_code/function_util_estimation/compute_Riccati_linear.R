@@ -43,7 +43,6 @@ History_R = list(mat_Rn)
 History_H = list(vect_Hn) 
 mat_Rk  = mat_Rn
 vect_Hk = vect_Hn
-
 val_Sn_prof = t(Yn_fin)%*%Yn_fin
 
 for (nk in 1:(nb_time_integ-1)){
