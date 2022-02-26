@@ -118,8 +118,7 @@ est_param_iter_oca_nonlinear_profiled_ic_multi_curves <- function(Times_obs_list
         stop_criteria = 1;
       }
       
-    }
-    
+    }    
     new_pseudo_State_ini_list = append(new_pseudo_State_ini_list,list(ensemble_Ricatti_comp$State_opt))
     ensemble_Ricatti_comp_list = append(ensemble_Ricatti_comp_list,list(ensemble_Ricatti_comp))
     Val_sum_cost_prof = Val_sum_cost_prof+ ensemble_Ricatti_comp$Val_cost_prof
