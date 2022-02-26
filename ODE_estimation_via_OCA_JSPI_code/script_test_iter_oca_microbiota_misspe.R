@@ -112,7 +112,7 @@ err_pred_opt_cur = 10^20
 theta_prof_ini = theta_ini_sp3
 list_res_estimation_prof_ic= list()
 for (lambda  in lambda_trial){
-  
+ 
   mat_U = lambda*diag(dim_control)
   
   res_est = est_param_iter_oca_nonlinear_profiled_ic_multi_curves(Time_list,Obs_Y_multi,State_ini_multi,param_ini=theta_prof_ini
