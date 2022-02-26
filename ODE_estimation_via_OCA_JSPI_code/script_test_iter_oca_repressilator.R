@@ -92,7 +92,6 @@ for (col_i in 1:dim_obs) Obs_Y[,col_i] =  pmax(X_without_noise[,col_i]+sigma_obs
    
  }
  
- 
  #estimation without profiling on ic: Results are embedded in object "res_est_err_pred_opt" and "list_res_estimation"
  # res_est_err_pred_opt is a list composed of:
  # -res_est_err_pred_opt$est_param: the estimated value
