@@ -37,7 +37,6 @@ compute_Riccati_linear_profiled_ic <- function(Times_integ,pseudo_Y,param_struct
   nb_time_integ = length(Times_integ)
   nb_unknown = dim_syst - length(x0_known)
   
-
   Yn_fin = pseudo_Y[,nb_time_integ]
   #print('iic')
   
