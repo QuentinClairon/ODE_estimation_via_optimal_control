@@ -8,7 +8,6 @@
   library('optimx')
   
   
-  
   ######## Data generation
   # observation interval & true parameter specification
 
