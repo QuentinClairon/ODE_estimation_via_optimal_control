@@ -120,4 +120,3 @@ for (lambda  in lambda_trial){
   }
   
 }
-
