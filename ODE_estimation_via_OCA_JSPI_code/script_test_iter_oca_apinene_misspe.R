@@ -28,6 +28,7 @@ sig_c = sqrt(0.004)
 #sig_c = sqrt(0.008)
 
 sigma_obs = 5
+
 out_pert_ref = Apinene_stoch_pert_sim (deb=0,h=Times_obs[length(Times_obs)]/5000,fin=Times_obs[length(Times_obs)],Pars = theta,y0= x0,sd_stoch_pert = sig_c)
 out_pert = t(out_pert_ref[[2]][,seq(1,length(out_pert_ref[[1]]),5000/step)])
 
