@@ -29,7 +29,6 @@ err_pred_estimation_oca_lincase <- function(Times_integ,pseudo_Y,est_param,State
   
   v_field <- function(Time, State, Pars){
     dState = mat_A(Time,est_param)%*%State
-    
     return(list(c(dState)))
   }
   
