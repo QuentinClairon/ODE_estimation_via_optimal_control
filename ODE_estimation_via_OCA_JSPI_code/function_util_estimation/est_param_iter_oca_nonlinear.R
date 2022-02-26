@@ -104,8 +104,7 @@ est_param_iter_oca_nonlinear <- function(Times_obs,Yn,param_ini,x0_known = c(),m
     Riccati_cur = list();
     
     while (stop_criteria ==0){
-      ensemble_Ricatti_comp =  compute_Riccati_nonlinear(Times_integ,pseudo_Y,State_i_m1 ,param,mat_U,mat_A,mat_B,mat_C,weight_integ)
-      
+      ensemble_Ricatti_comp =  compute_Riccati_nonlinear(Times_integ,pseudo_Y,State_i_m1 ,param,mat_U,mat_A,mat_B,mat_C,weight_integ)    
       val_err_iter = sum((ensemble_Ricatti_comp$State_opt -  State_i_m1)^2)
       State_i_m1 = ensemble_Ricatti_comp$State_opt
       nb_iter = nb_iter+1
